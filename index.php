@@ -18,8 +18,8 @@ $frutas = [
 $frutaAProcurar = "Limão";
 
 $encontrei = false;
-foreach($frutas as $chave => $fruta){
-    if($fruta == $frutaAProcurar){
+foreach ($frutas as $chave => $fruta) {
+    if ($fruta == $frutaAProcurar) {
         echo "A fruta $fruta foi deletada";
 
         echo "<br> <br>";
@@ -29,7 +29,7 @@ foreach($frutas as $chave => $fruta){
     }
 }
 
-if(!$encontrei){
+if (!$encontrei) {
     echo "Fruta não encontrada";
 }
 
